@@ -1,0 +1,33 @@
+<div class="container">
+    <h1 class="title">
+        Add Book
+    </h1>
+
+    <form [formGroup]="booksForm" class="form">
+        <!-- <mat-form-field appearance="outline">
+            <mat-label>
+                id
+            </mat-label>
+            <input matInput placeholder="id" formControlName="id" />
+        </mat-form-field> -->
+
+        <mat-form-field appearance="outline">
+            <mat-label>
+                name
+            </mat-label>
+            <input matInput placeholder="name" formControlName="name" />
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>
+                autorNume
+            </mat-label>
+            <input matInput placeholder="autorNume" formControlName="autorNume" />
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button (click)="addBook()" appHoverBtn>
+        Save
+    </button>
+
+</div>
