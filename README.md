@@ -1,3 +1,3 @@
-# proiect_daw
+# Books Manager 
 
-Fierbinteanu David, grupa 242, sgr 15
+ University project using .NET Api & Angular
